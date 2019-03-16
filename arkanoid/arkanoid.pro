@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     sdlhelper.cpp \
-    game.cpp
+    game.cpp \
+    gameobject.cpp \
+    player.cpp
 
 INCLUDEPATH += /usr/include/SDL2
 
@@ -13,4 +15,6 @@ LIBS += -L/usr/lib/arm-linux-gnueabihf -lSDL2
 
 HEADERS += \
     sdlhelper.h \
-    game.h
+    game.h \
+    gameobject.h \
+    player.h

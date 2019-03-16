@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "player.h"
 
 class Game
 {
@@ -10,6 +11,7 @@ private:
     void gameLoop();
     void render();
     void handleEvent(bool& doQuit);
+    Player player;
 };
 
 #endif // GAME_H
